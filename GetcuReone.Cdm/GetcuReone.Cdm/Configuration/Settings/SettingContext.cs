@@ -22,6 +22,6 @@ namespace GetcuReone.Cdm.Configuration.Settings
         /// <summary>
         /// Setting namespaces.
         /// </summary>
-        public List<SettingNameSpace> NameSpaces { get; set; }
+        public List<SettingNamespace> Namespaces { get; set; }
     }
 }

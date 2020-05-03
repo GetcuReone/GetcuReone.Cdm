@@ -8,7 +8,7 @@ namespace GetcuReone.Cdm.Configuration.Settings
     /// Setting name space.
     /// </summary>
     [Serializable]
-    public sealed class SettingNameSpace
+    public sealed class SettingNamespace
     {
         /// <summary>
         /// Setting namespace code.
