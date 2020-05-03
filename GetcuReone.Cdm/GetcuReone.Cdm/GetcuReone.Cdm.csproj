@@ -2,6 +2,50 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>GetcuReone.Cdm</RootNamespace>
+    <DocumentationFile>GetcuReone.Cdm.xml</DocumentationFile>
+
+    <Authors>Itua Juel-Gaben</Authors>
+    <PackageId>GetcuReone.Cdm</PackageId>
+    <Product>GetcuReone.Cdm</Product>
+    <Description>Common Domain Model.</Description>
+    <RepositoryUrl>https://dev.azure.com/GetcuReone/GetcuReone.CommonProjects/_git/GetcuReone.Cdm</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>getcureone cdm</PackageTags>
+    <PackageReleaseNotes></PackageReleaseNotes>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageProjectUrl>https://dev.azure.com/GetcuReone/GetcuReone.CommonProjects/</PackageProjectUrl>
+    <Copyright>Copyright © 2020 $(Authors)</Copyright>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>..\GetcuReone.snk</AssemblyOriginatorKeyFile>
+    <DelaySign>false</DelaySign>
+    <AssemblyVersion>$(majorVersion).0.0.0</AssemblyVersion>
+    <FileVersion>$(majorVersion).0.0.0</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\LICENSE.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\..\README.md">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
