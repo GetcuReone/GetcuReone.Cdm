@@ -13,7 +13,7 @@ namespace GetcuReone.Cdm.Configuration.Settings
         /// Type code.
         /// </summary>
         [XmlAttribute]
-        public string TypeCode { get; set; }
+        public string Type { get; set; }
 
         /// <summary>
         /// Value.
