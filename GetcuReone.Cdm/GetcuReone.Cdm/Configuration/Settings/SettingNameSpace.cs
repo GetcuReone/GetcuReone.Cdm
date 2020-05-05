@@ -17,6 +17,12 @@ namespace GetcuReone.Cdm.Configuration.Settings
         public string Code { get; set; }
 
         /// <summary>
+        /// Setting full code.
+        /// </summary>
+        [XmlIgnore]
+        public string FullCode { get; set; }
+
+        /// <summary>
         /// Setting namespace name.
         /// </summary>
         public string Name { get; set; }
