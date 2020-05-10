@@ -23,9 +23,14 @@ namespace GetcuReone.Cdm.Configuration.Settings
         public string Code { get; set; }
 
         /// <summary>
-        /// Permissible values.
+        /// Permissible values. Must be set if the format of the enumeration value
         /// </summary>
         public List<string> PermissibleValues { get; set; }
+
+        /// <summary>
+        /// Text pattern. Must be set if the format of the text value
+        /// </summary>
+        public string TextPattern { get; set; }
 
         /// <summary>
         /// <see cref="int"/> setting type.
@@ -34,7 +39,8 @@ namespace GetcuReone.Cdm.Configuration.Settings
         public static readonly SettingType Int = new SettingType
         {
             Code = nameof(Int),
-            FormatValue = FormatValue.Number,
+            FormatValue = FormatValue.Text,
+            TextPattern = @"(^\d+$)|(^-\d+$)",
         };
 
         /// <summary>
@@ -59,7 +65,8 @@ namespace GetcuReone.Cdm.Configuration.Settings
         public static readonly SettingType String = new SettingType
         {
             Code = nameof(String),
-            FormatValue = FormatValue.String,
+            FormatValue = FormatValue.Text,
+            TextPattern = ".*"
         };
     }
 }
