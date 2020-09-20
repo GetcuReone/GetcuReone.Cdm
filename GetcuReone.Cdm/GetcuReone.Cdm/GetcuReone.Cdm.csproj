@@ -8,28 +8,32 @@
     <Authors>Itua Juel-Gaben</Authors>
     <PackageId>GetcuReone.Cdm</PackageId>
     <Product>GetcuReone.Cdm</Product>
-    <Description>Common Domain Model.</Description>
-    <RepositoryUrl>https://dev.azure.com/GetcuReone/GetcuReone.CommonProjects/_git/GetcuReone.Cdm</RepositoryUrl>
+    <Description>Common Domain Model. Contains common entities that will be used in other projects.</Description>
+    <RepositoryUrl>https://github.com/GetcuReone/GetcuReone.Cdm</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>getcureone cdm</PackageTags>
-    <PackageReleaseNotes></PackageReleaseNotes>
+    <PackageReleaseNotes>
+        Changes:
+            - added common entities for communication, configuration and erros.
+    </PackageReleaseNotes>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <PackageProjectUrl>https://dev.azure.com/GetcuReone/GetcuReone.CommonProjects/</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/GetcuReone/GetcuReone.Cdm</PackageProjectUrl>
     <Copyright>Copyright © 2020 $(Authors)</Copyright>
     <NeutralLanguage>en-US</NeutralLanguage>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
 
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
-  </PropertyGroup>
-
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
+    <PropertyGroup Condition="'$(TF_BUILD)' == 'true'">
+        <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
+    </PropertyGroup>
+
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <SignAssembly>true</SignAssembly>
-    <AssemblyOriginatorKeyFile>..\GetcuReone.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>$(snkFilePath)</AssemblyOriginatorKeyFile>
     <DelaySign>false</DelaySign>
     <AssemblyVersion>$(majorVersion).0.0.0</AssemblyVersion>
     <FileVersion>$(majorVersion).0.0.0</FileVersion>
