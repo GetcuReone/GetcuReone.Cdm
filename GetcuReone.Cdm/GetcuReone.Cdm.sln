@@ -7,8 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GetcuReone.Cdm", "GetcuReon
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{82F45E4B-56F1-49C9-BC23-840A6565E13A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestCommon", "Infrastructure\TestCommon\TestCommon.csproj", "{AC23E8DC-2C39-47D8-BDAF-07BFCA0A968D}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InfrastructureTests", "Infrastructure\InfrastructureTests\InfrastructureTests.csproj", "{630AD0CB-8B22-474C-BBB3-0AD32FDDC452}"
 EndProject
 Global
@@ -21,10 +19,6 @@ Global
 		{9F481AA7-3A86-48C4-8141-5DDD8155A722}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F481AA7-3A86-48C4-8141-5DDD8155A722}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F481AA7-3A86-48C4-8141-5DDD8155A722}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AC23E8DC-2C39-47D8-BDAF-07BFCA0A968D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AC23E8DC-2C39-47D8-BDAF-07BFCA0A968D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AC23E8DC-2C39-47D8-BDAF-07BFCA0A968D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AC23E8DC-2C39-47D8-BDAF-07BFCA0A968D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{630AD0CB-8B22-474C-BBB3-0AD32FDDC452}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{630AD0CB-8B22-474C-BBB3-0AD32FDDC452}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{630AD0CB-8B22-474C-BBB3-0AD32FDDC452}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -34,7 +28,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{AC23E8DC-2C39-47D8-BDAF-07BFCA0A968D} = {82F45E4B-56F1-49C9-BC23-840A6565E13A}
 		{630AD0CB-8B22-474C-BBB3-0AD32FDDC452} = {82F45E4B-56F1-49C9-BC23-840A6565E13A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
