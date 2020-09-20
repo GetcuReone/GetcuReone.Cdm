@@ -1,0 +1,224 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GetcuReone.Cdm</name>
+    </assembly>
+    <members>
+        <member name="T:GetcuReone.Cdm.Communication.Email">
+            <summary>
+            Entity email.
+            </summary>
+        </member>
+        <member name="P:GetcuReone.Cdm.Communication.Email.To">
+            <summary>
+            Message recipients.
+            </summary>
+        </member>
+        <member name="P:GetcuReone.Cdm.Communication.Email.From">
+            <summary>
+            Message sender.
+            </summary>
+        </member>
+        <member name="P:GetcuReone.Cdm.Communication.Email.Subject">
+            <summary>
+            Subject message.
+            </summary>
+        </member>
+        <member name="P:GetcuReone.Cdm.Communication.Email.Body">
+            <summary>
+            Message content.
+            </summary>
+        </member>
+        <member name="P:GetcuReone.Cdm.Communication.Email.IsBodyHtml">
+            <summary>
+            Does the message contain a HTML code
+            </summary>
+        </member>
+        <member name="P:GetcuReone.Cdm.Communication.Email.Attachments">
+            <summary>
+            Attachment paths.
+            </summary>
+        </member>
+        <member name="T:GetcuReone.Cdm.Configuration.Settings.FormatValue">
+            <summary>
+            Format value.
+            </summary>
+        </member>
+        <member name="F:GetcuReone.Cdm.Configuration.Settings.FormatValue.Text">
+            <summary>
+            String.
+            </summary>
+        </member>
+        <member name="F:GetcuReone.Cdm.Configuration.Settings.FormatValue.Enumerate">
+            <summary>
+            Enumerate.
+            </summary>
+        </member>
+        <member name="T:GetcuReone.Cdm.Configuration.Settings.Setting">
+            <summary>
+            Setting.
+            </summary>
+        </member>
+        <member name="P:GetcuReone.Cdm.Configuration.Settings.Setting.Type">
+            <summary>
+            Type code.
+            </summary>
+        </member>
+        <member name="P:GetcuReone.Cdm.Configuration.Settings.Setting.Value">
+            <summary>
+            Value.
+            </summary>
+        </member>
+        <member name="P:GetcuReone.Cdm.Configuration.Settings.Setting.DefaultValue">
+            <summary>
+            Default value.
+            </summary>
+        </member>
+        <member name="P:GetcuReone.Cdm.Configuration.Settings.Setting.Code">
+            <summary>
+            Setting code.
+            </summary>
+        </member>
+        <member name="P:GetcuReone.Cdm.Configuration.Settings.Setting.FullCode">
+            <summary>
+            Setting full code.
+            </summary>
+        </member>
+        <member name="P:GetcuReone.Cdm.Configuration.Settings.Setting.Name">
+            <summary>
+            Setting name.
+            </summary>
+        </member>
+        <member name="P:GetcuReone.Cdm.Configuration.Settings.Setting.Description">
+            <summary>
+            Description.
+            </summary>
+        </member>
+        <member name="T:GetcuReone.Cdm.Configuration.Settings.SettingContext">
+            <summary>
+            Setting context.
+            </summary>
+        </member>
+        <member name="P:GetcuReone.Cdm.Configuration.Settings.SettingContext.Name">
+            <summary>
+            Setting context name.
+            </summary>
+        </member>
+        <member name="P:GetcuReone.Cdm.Configuration.Settings.SettingContext.Description">
+            <summary>
+            Setting context description.
+            </summary>
+        </member>
+        <member name="P:GetcuReone.Cdm.Configuration.Settings.SettingContext.Namespaces">
+            <summary>
+            Setting namespaces.
+            </summary>
+        </member>
+        <member name="T:GetcuReone.Cdm.Configuration.Settings.SettingNamespace">
+            <summary>
+            Setting name space.
+            </summary>
+        </member>
+        <member name="P:GetcuReone.Cdm.Configuration.Settings.SettingNamespace.Code">
+            <summary>
+            Setting namespace code.
+            </summary>
+        </member>
+        <member name="P:GetcuReone.Cdm.Configuration.Settings.SettingNamespace.FullCode">
+            <summary>
+            Setting full code.
+            </summary>
+        </member>
+        <member name="P:GetcuReone.Cdm.Configuration.Settings.SettingNamespace.Name">
+            <summary>
+            Setting namespace name.
+            </summary>
+        </member>
+        <member name="P:GetcuReone.Cdm.Configuration.Settings.SettingNamespace.Description">
+            <summary>
+            Description.
+            </summary>
+        </member>
+        <member name="P:GetcuReone.Cdm.Configuration.Settings.SettingNamespace.Namespaces">
+            <summary>
+             Sub namespaces.
+            </summary>
+        </member>
+        <member name="P:GetcuReone.Cdm.Configuration.Settings.SettingNamespace.Settings">
+            <summary>
+            Settings.
+            </summary>
+        </member>
+        <member name="T:GetcuReone.Cdm.Configuration.Settings.SettingType">
+            <summary>
+            Setting type.
+            </summary>
+        </member>
+        <member name="P:GetcuReone.Cdm.Configuration.Settings.SettingType.FormatValue">
+            <summary>
+            Format value
+            </summary>
+        </member>
+        <member name="P:GetcuReone.Cdm.Configuration.Settings.SettingType.Code">
+            <summary>
+            Type code.
+            </summary>
+        </member>
+        <member name="P:GetcuReone.Cdm.Configuration.Settings.SettingType.PermissibleValues">
+            <summary>
+            Permissible values. Must be set if the format of the enumeration value
+            </summary>
+        </member>
+        <member name="P:GetcuReone.Cdm.Configuration.Settings.SettingType.TextPattern">
+            <summary>
+            Text pattern. Must be set if the format of the text value
+            </summary>
+        </member>
+        <member name="F:GetcuReone.Cdm.Configuration.Settings.SettingType.Int">
+            <summary>
+            <see cref="T:System.Int32"/> setting type.
+            </summary>
+        </member>
+        <member name="F:GetcuReone.Cdm.Configuration.Settings.SettingType.Bool">
+            <summary>
+            <see cref="T:System.Boolean"/> setting type.
+            </summary>
+        </member>
+        <member name="F:GetcuReone.Cdm.Configuration.Settings.SettingType.String">
+            <summary>
+            <see cref="T:System.String"/> setting type.
+            </summary>
+        </member>
+        <member name="T:GetcuReone.Cdm.Errors.ErrorDetail">
+            <summary>
+            Error detail.
+            </summary>
+        </member>
+        <member name="P:GetcuReone.Cdm.Errors.ErrorDetail.Code">
+            <summary>
+            Error code.
+            </summary>
+        </member>
+        <member name="P:GetcuReone.Cdm.Errors.ErrorDetail.Reason">
+            <summary>
+            Error reason.
+            </summary>
+        </member>
+        <member name="T:GetcuReone.Cdm.Errors.GetcuReoneException">
+            <summary>
+            Common exception for GR systems
+            </summary>
+        </member>
+        <member name="P:GetcuReone.Cdm.Errors.GetcuReoneException.ErrorDetails">
+            <summary>
+            Additional error information.
+            </summary>
+        </member>
+        <member name="M:GetcuReone.Cdm.Errors.GetcuReoneException.#ctor(System.Collections.Generic.IReadOnlyCollection{GetcuReone.Cdm.Errors.ErrorDetail})">
+            <summary>
+            Constructor.
+            </summary>
+            <param name="errorDetails"></param>
+        </member>
+    </members>
+</doc>
