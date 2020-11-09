@@ -14,7 +14,7 @@
     <PackageTags>getcureone cdm</PackageTags>
     <PackageReleaseNotes>
         Changes:
-            - added common entities for communication, configuration and erros.
+        - added default setting type 'PowerMode'.
     </PackageReleaseNotes>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageProjectUrl>https://github.com/GetcuReone/GetcuReone.Cdm</PackageProjectUrl>
