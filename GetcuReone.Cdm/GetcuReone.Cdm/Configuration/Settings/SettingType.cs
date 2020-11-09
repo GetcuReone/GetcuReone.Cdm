@@ -11,7 +11,7 @@ namespace GetcuReone.Cdm.Configuration.Settings
     public sealed class SettingType
     {
         /// <summary>
-        /// Format value
+        /// Format value.
         /// </summary>
         [XmlAttribute]
         public FormatValue FormatValue { get; set; }
@@ -23,13 +23,15 @@ namespace GetcuReone.Cdm.Configuration.Settings
         public string Code { get; set; }
 
         /// <summary>
-        /// Permissible values. Must be set if the format of the enumeration value
+        /// Permissible values. Must be set if the format of the enumeration value.
         /// </summary>
+        [XmlElement]
         public List<string> PermissibleValues { get; set; }
 
         /// <summary>
-        /// Text pattern. Must be set if the format of the text value
+        /// Text pattern. Must be set if the format of the text value.
         /// </summary>
+        [XmlElement]
         public string TextPattern { get; set; }
 
         /// <summary>
@@ -51,7 +53,7 @@ namespace GetcuReone.Cdm.Configuration.Settings
         {
             Code = nameof(Bool),
             FormatValue = FormatValue.Enumerate,
-            PermissibleValues = new List<string>
+            PermissibleValues = new List<string>(2)
             {
                 "True",
                 "False",
@@ -67,6 +69,20 @@ namespace GetcuReone.Cdm.Configuration.Settings
             Code = nameof(String),
             FormatValue = FormatValue.Text,
             TextPattern = ".*"
+        };
+
+        /// <summary>
+        /// On or off mode setting type.
+        /// </summary>
+        public static readonly SettingType PowerMode = new SettingType
+        {
+            Code = nameof(PowerMode),
+            FormatValue = FormatValue.Enumerate,
+            PermissibleValues = new List<string>(2)
+            {
+                "On",
+                "Off",
+            },
         };
     }
 }

@@ -156,7 +156,7 @@
         </member>
         <member name="P:GetcuReone.Cdm.Configuration.Settings.SettingType.FormatValue">
             <summary>
-            Format value
+            Format value.
             </summary>
         </member>
         <member name="P:GetcuReone.Cdm.Configuration.Settings.SettingType.Code">
@@ -166,12 +166,12 @@
         </member>
         <member name="P:GetcuReone.Cdm.Configuration.Settings.SettingType.PermissibleValues">
             <summary>
-            Permissible values. Must be set if the format of the enumeration value
+            Permissible values. Must be set if the format of the enumeration value.
             </summary>
         </member>
         <member name="P:GetcuReone.Cdm.Configuration.Settings.SettingType.TextPattern">
             <summary>
-            Text pattern. Must be set if the format of the text value
+            Text pattern. Must be set if the format of the text value.
             </summary>
         </member>
         <member name="F:GetcuReone.Cdm.Configuration.Settings.SettingType.Int">
@@ -187,6 +187,11 @@
         <member name="F:GetcuReone.Cdm.Configuration.Settings.SettingType.String">
             <summary>
             <see cref="T:System.String"/> setting type.
+            </summary>
+        </member>
+        <member name="F:GetcuReone.Cdm.Configuration.Settings.SettingType.PowerMode">
+            <summary>
+            On or off mode setting type.
             </summary>
         </member>
         <member name="T:GetcuReone.Cdm.Errors.ErrorDetail">
