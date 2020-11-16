@@ -80,8 +80,8 @@ namespace GetcuReone.Cdm.Configuration.Settings
             FormatValue = FormatValue.Enumerate,
             PermissibleValues = new List<string>(2)
             {
-                "On",
-                "Off",
+                nameof(Enums.PowerMode.On),
+                nameof(Enums.PowerMode.Off),
             },
         };
     }
