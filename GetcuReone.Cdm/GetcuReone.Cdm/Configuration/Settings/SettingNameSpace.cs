@@ -13,7 +13,7 @@ namespace GetcuReone.Cdm.Configuration.Settings
         /// <summary>
         /// Setting namespace code.
         /// </summary>
-        [XmlAttribute]
+        [XmlAttribute(AttributeName = "code")]
         public string Code { get; set; }
 
         /// <summary>
@@ -25,21 +25,25 @@ namespace GetcuReone.Cdm.Configuration.Settings
         /// <summary>
         /// Setting namespace name.
         /// </summary>
+        [XmlElement(ElementName = "name")]
         public string Name { get; set; }
 
         /// <summary>
         /// Description.
         /// </summary>
+        [XmlElement(ElementName = "description")]
         public string Description { get; set; }
 
         /// <summary>
         ///  Sub namespaces.
         /// </summary>
+        [XmlElement(ElementName = "namespace")]
         public List<SettingNamespace> Namespaces { get; set; }
 
         /// <summary>
         /// Settings.
         /// </summary>
+        [XmlElement(ElementName = "setting")]
         public List<Setting> Settings { get; set; }
     }
 }
