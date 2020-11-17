@@ -12,23 +12,25 @@ namespace GetcuReone.Cdm.Configuration.Settings
         /// <summary>
         /// Type code.
         /// </summary>
-        [XmlAttribute]
+        [XmlAttribute(AttributeName = "type")]
         public string Type { get; set; }
 
         /// <summary>
         /// Value.
         /// </summary>
+        [XmlElement(ElementName = "value")]
         public string Value { get; set; }
 
         /// <summary>
         /// Default value.
         /// </summary>
+        [XmlElement(ElementName = "defaultValue")]
         public string DefaultValue { get; set; }
 
         /// <summary>
         /// Setting code.
         /// </summary>
-        [XmlAttribute]
+        [XmlAttribute(AttributeName = "code")]
         public string Code { get; set; }
 
         /// <summary>
@@ -40,11 +42,13 @@ namespace GetcuReone.Cdm.Configuration.Settings
         /// <summary>
         /// Setting name.
         /// </summary>
+        [XmlElement(ElementName = "name")]
         public string Name { get; set; }
 
         /// <summary>
         /// Description.
         /// </summary>
+        [XmlElement(ElementName = "description")]
         public string Description { get; set; }
     }
 }

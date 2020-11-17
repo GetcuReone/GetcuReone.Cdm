@@ -13,19 +13,19 @@ namespace GetcuReone.Cdm.Configuration.Settings
         /// <summary>
         /// Format value.
         /// </summary>
-        [XmlAttribute]
+        [XmlAttribute(AttributeName = "formatValue")]
         public FormatValue FormatValue { get; set; }
 
         /// <summary>
         /// Type code.
         /// </summary>
-        [XmlAttribute]
+        [XmlAttribute(AttributeName = "code")]
         public string Code { get; set; }
 
         /// <summary>
         /// Permissible values. Must be set if the format of the enumeration value.
         /// </summary>
-        [XmlElement]
+        [XmlElement(ElementName = "permissibleValue")]
         public List<string> PermissibleValues { get; set; }
 
         /// <summary>
