@@ -14,7 +14,7 @@
     <PackageTags>getcureone cdm</PackageTags>
     <PackageReleaseNotes>
         Changes:
-        - added default setting type 'PowerMode'.
+        - edit serialize settings.
     </PackageReleaseNotes>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageProjectUrl>https://github.com/GetcuReone/GetcuReone.Cdm</PackageProjectUrl>
