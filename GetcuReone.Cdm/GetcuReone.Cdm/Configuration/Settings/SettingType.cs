@@ -31,7 +31,7 @@ namespace GetcuReone.Cdm.Configuration.Settings
         /// <summary>
         /// Text pattern. Must be set if the format of the text value.
         /// </summary>
-        [XmlElement]
+        [XmlElement(ElementName = "pattern")]
         public string TextPattern { get; set; }
 
         /// <summary>
