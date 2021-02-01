@@ -39,6 +39,54 @@
             Attachment paths.
             </summary>
         </member>
+        <member name="T:GetcuReone.Cdm.Configuration.ConfigValue">
+            <summary>
+            Class for serializing config values.
+            </summary>
+        </member>
+        <member name="P:GetcuReone.Cdm.Configuration.ConfigValue.Key">
+            <summary>
+            Key.
+            </summary>
+        </member>
+        <member name="P:GetcuReone.Cdm.Configuration.ConfigValue.Value">
+            <summary>
+            Value.
+            </summary>
+        </member>
+        <member name="M:GetcuReone.Cdm.Configuration.ConfigValue.ToString">
+            <inheritdoc/>
+        </member>
+        <member name="T:GetcuReone.Cdm.Configuration.GetcuReoneConfig">
+            <summary>
+            GetcuReone config.
+            </summary>
+        </member>
+        <member name="P:GetcuReone.Cdm.Configuration.GetcuReoneConfig.SettingsConfigs">
+            <summary>
+            Settings configurations.
+            </summary>
+        </member>
+        <member name="P:GetcuReone.Cdm.Configuration.GetcuReoneConfig.LoggingConfigs">
+            <summary>
+            Logging configurations.
+            </summary>
+        </member>
+        <member name="T:GetcuReone.Cdm.Configuration.Settings.Enums.PowerMode">
+            <summary>
+            Enum power mode.
+            </summary>
+        </member>
+        <member name="F:GetcuReone.Cdm.Configuration.Settings.Enums.PowerMode.On">
+            <summary>
+            On.
+            </summary>
+        </member>
+        <member name="F:GetcuReone.Cdm.Configuration.Settings.Enums.PowerMode.Off">
+            <summary>
+            Off.
+            </summary>
+        </member>
         <member name="T:GetcuReone.Cdm.Configuration.Settings.FormatValue">
             <summary>
             Format value.
