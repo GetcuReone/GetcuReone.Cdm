@@ -21,5 +21,11 @@ namespace GetcuReone.Cdm.Configuration
         /// </summary>
         [XmlElement(ElementName = "loggingConfig")]
         public List<ConfigValue> LoggingConfigs { get; set; }
+
+        /// <summary>
+        /// Sections.
+        /// </summary>
+        [XmlElement(ElementName = "section")]
+        public List<SectionConfig> Sections { get; set; }
     }
 }
