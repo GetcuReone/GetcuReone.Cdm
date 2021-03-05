@@ -14,7 +14,8 @@
     <PackageTags>getcureone cdm</PackageTags>
     <PackageReleaseNotes>
         Changes:
-        - edit serialize settings.
+        - edit serialize settings
+        - fix assembly version
     </PackageReleaseNotes>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageProjectUrl>https://github.com/GetcuReone/GetcuReone.Cdm</PackageProjectUrl>
@@ -35,8 +36,8 @@
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>$(snkFilePath)</AssemblyOriginatorKeyFile>
     <DelaySign>false</DelaySign>
-    <AssemblyVersion>$(majorVersion).$(minorVersion).0.0</AssemblyVersion>
-    <FileVersion>$(majorVersion).$(minorVersion).0.0</FileVersion>
+    <AssemblyVersion>$(majorVersion).0.0.0</AssemblyVersion>
+    <FileVersion>$(majorVersion).0.0.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
