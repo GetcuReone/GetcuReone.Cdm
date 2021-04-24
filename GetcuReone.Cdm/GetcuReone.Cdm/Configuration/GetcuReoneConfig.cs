@@ -11,18 +11,6 @@ namespace GetcuReone.Cdm.Configuration
     public sealed class GetcuReoneConfig
     {
         /// <summary>
-        /// Settings configurations.
-        /// </summary>
-        [XmlElement(ElementName = "settingsConfig")]
-        public List<ConfigValue> SettingsConfigs { get; set; }
-
-        /// <summary>
-        /// Logging configurations.
-        /// </summary>
-        [XmlElement(ElementName = "loggingConfig")]
-        public List<ConfigValue> LoggingConfigs { get; set; }
-
-        /// <summary>
         /// Sections.
         /// </summary>
         [XmlElement(ElementName = "section")]
